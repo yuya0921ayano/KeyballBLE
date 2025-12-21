@@ -117,7 +117,7 @@
         layer_6 {
             bindings = <
 &trans            &trans        &kp UP_ARROW    &trans           &kp LANGUAGE_5                              &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &trans      &studio_unlock  &trans        &mkp LCLK     &mkp RCLK     &trans        &trans
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &trans      &studio_unlock  &trans        &mkp LCLK     &mkp RCLK     &to 5         &to 5
 &trans            &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3     &kt KP_N4       &trans      &bootloader     &trans        &mkp MB4      &mkp MB5      &trans        &bt BT_CLR
 &trans            &trans        &trans          &trans           &trans          &trans      &trans          &trans                                                  &bt BT_CLR_ALL
             >;
