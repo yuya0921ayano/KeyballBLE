@@ -116,10 +116,10 @@
 
         layer_6 {
             bindings = <
-&trans            &trans        &kp UP_ARROW    &trans           &kp LC(SPACE)                                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp LC(SPACE)  &trans          &kp C_VOLUME_UP    &trans        &mkp LCLK     &mkp RCLK     &to 5         &to 5
-&kp LSHFT         &kp S         &kp DOWN_ARROW  &kp LC(LS(TAB))  &kp LC(TAB)    &kp C_MUTE      &kp C_VOLUME_DOWN  &trans        &mkp MB4      &mkp MB5      &trans        &trans
-&trans            &trans        &trans          &trans           &trans         &trans          &trans             &trans                                                  &trans
+&trans            &trans        &kp UP_ARROW    &trans           &kp LC(LEFT_SHIFT)                                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp LC(SPACE)       &trans          &kp C_VOLUME_UP    &trans        &mkp LCLK     &mkp RCLK     &to 5         &to 5
+&kp LSHFT         &kp S         &kp DOWN_ARROW  &kp LC(LS(TAB))  &kp LC(TAB)         &kp C_MUTE      &kp C_VOLUME_DOWN  &trans        &mkp MB4      &mkp MB5      &trans        &trans
+&trans            &trans        &trans          &trans           &trans              &trans          &trans             &trans                                                  &trans
             >;
         };
     };
