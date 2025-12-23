@@ -121,6 +121,8 @@
 &kp LSHFT         &trans        &kp DOWN_ARROW  &kp LC(LS(TAB))  &kp LC(TAB)         &kp C_MUTE      &kp C_VOLUME_DOWN  &trans        &mkp MB4      &mkp MB5      &trans        &trans
 &trans            &trans        &trans          &trans           &trans              &trans          &trans             &trans                                                  &trans
             >;
+
+            sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
         };
     };
 };
