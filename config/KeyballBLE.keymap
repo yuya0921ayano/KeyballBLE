@@ -108,8 +108,8 @@
         SCROLL {
             bindings = <
 &trans        &trans           &kp UP_ARROW    &kp LEFT_BRACKET      &kp RIGHT_BRACKET                                                  &mt RG(LS(Z)) RC(Y)  &mt RG(Z) RC(Z)  &kp UP_ARROW       &kp RG(TAB)       &trans
-&kp QUESTION  &kp EXCLAMATION  &kp LEFT_ARROW  &kp RIGHT_ARROW       &kp AT_SIGN            &trans      &mt RG(RS(NUMBER_4)) RS(RC(S))  &kp LEFT_ARROW       &kp RIGHT_ARROW  &kp RIGHT_COMMAND  &kp LEFT_CONTROL  &trans
-&trans        &trans           &kp DOWN_ARROW  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &kp RS(RG(S))                   &mt RG(V) RC(V)      &mt RG(C) RC(C)  &kp DOWN_ARROW     &trans            &trans
+&kp QUESTION  &kp EXCLAMATION  &kp LEFT_ARROW  &kp RIGHT_ARROW       &kp AT_SIGN            &trans      &mt RG(RS(S)) RS(RC(S))         &kp LEFT_ARROW       &kp RIGHT_ARROW  &kp RIGHT_COMMAND  &kp LEFT_CONTROL  &trans
+&trans        &trans           &kp DOWN_ARROW  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &mt RG(RS(NUMBER_4)) RS(RG(S))  &mt RG(V) RC(V)      &mt RG(C) RC(C)  &kp DOWN_ARROW     &trans            &trans
 &trans        &trans           &trans          &trans                &trans                 &trans      &trans                          &trans                                                                     &trans
             >;
         };
