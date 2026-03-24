@@ -117,7 +117,7 @@
         layer_6 {
             bindings = <
 &kp ESC  &trans  &trans  &trans                     &kp LC(LEFT_SHIFT)                                      &trans  &trans     &trans     &trans  &trans
-&kp A    &trans  &trans  &trans                     &kp LC(SPACE)        &trans          &kp C_VOLUME_UP    &trans  &mkp LCLK  &mkp RCLK  &trans  &to 5
+&trans   &trans  &trans  &trans                     &kp LC(SPACE)        &trans          &kp C_VOLUME_UP    &trans  &mkp LCLK  &mkp RCLK  &trans  &to 5
 &trans   &trans  &trans  &kp LC(LS(C_VOLUME_DOWN))  &kp LC(C_VOLUME_UP)  &kp C_MUTE      &kp C_VOLUME_DOWN  &trans  &mkp MB4   &mkp MB5   &trans  &trans
 &trans   &trans  &trans  &trans                     &trans               &trans          &trans             &trans                                &trans
             >;
