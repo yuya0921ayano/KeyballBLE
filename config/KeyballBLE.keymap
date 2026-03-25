@@ -100,10 +100,10 @@
 
         SCROLL {
             bindings = <
-&mkp MB4  &mkp MB5          &kp UP_ARROW      &mt LG(Z) LC(Z)               &mt LG(LS(Z)) LC(Y)                                                                            &mt RG(LS(Z)) RC(Y)  &mt RG(Z) RC(Z)  &kp UP_ARROW       &kp RG(TAB)       &trans
-&trans    &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT                      &kp RIGHT                  &trans                              &mt RG(RS(S)) RS(RC(S))         &kp LEFT_ARROW       &kp RIGHT_ARROW  &kp RIGHT_COMMAND  &kp LEFT_CONTROL  &trans
-&trans    &trans            &kp DOWN_ARROW    &mt LS(LG(LEFT)) LC(LS(TAB))  &mt LG(LS(RIGHT)) LC(TAB)  &mt LG(LS(NUMBER_4)) LS(LG(S))      &mt RG(RS(NUMBER_4)) RS(RG(S))  &mt RG(V) RC(V)      &mt RG(C) RC(C)  &kp DOWN_ARROW     &trans            &trans
-&trans    &trans            &trans            &mt LG(V) LC(V)               &mt LG(C) LC(C)            &trans                              &trans                          &trans                                                                     &trans
+&mkp MB4  &mkp MB5  &mt LC(UP_ARROW) LG(TAB)               &mt LG(Z) LC(Z)                    &mt LG(LS(Z)) LC(Y)                                                                      &mt RG(LS(Z)) RC(Y)  &mt RG(Z) RC(Z)  &kp UP_ARROW       &kp RG(TAB)       &trans
+&trans    &trans    &mt LC(LEFT_ARROW) LC(LG(LEFT_ARROW))  &mt LC(RIGHT) LC(LG(RIGHT_ARROW))  &trans               &trans                              &mt RG(RS(S)) RS(RC(S))         &kp LEFT_ARROW       &kp RIGHT_ARROW  &kp RIGHT_COMMAND  &kp LEFT_CONTROL  &trans
+&trans    &trans    &mt LS(LG(LEFT_ARROW)) LC(LS(TAB))     &mt LS(LG(RIGHT_ARROW)) LC(TAB)    &trans               &mt LG(LS(NUMBER_4)) LS(LG(S))      &mt RG(RS(NUMBER_4)) RS(RG(S))  &mt RG(V) RC(V)      &mt RG(C) RC(C)  &kp DOWN_ARROW     &trans            &trans
+&trans    &trans    &trans                                 &mt LG(V) LC(V)                    &mt LG(C) LC(C)      &trans                              &trans                          &trans                                                                     &trans
             >;
         };
 
